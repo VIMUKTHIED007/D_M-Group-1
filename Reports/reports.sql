@@ -79,7 +79,7 @@ JOIN Reservation R ON F.ReservationID = R.ReservationID
 ORDER BY F.FeedbackDate DESC;
 
 
-9. Payments Report
+--Payments Report
 
 SELECT 
     P.PaymentID,
